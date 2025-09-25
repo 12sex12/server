@@ -8,7 +8,7 @@
     "type": "fill",
     "endpoint": "https://fill.papermc.io",
     "project": "paper",
-    "version": "1.21.9"
+    "version": "1.21.9-pre4"
   },
   "plugins": {
     "external": {
