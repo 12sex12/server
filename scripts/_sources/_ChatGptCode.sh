@@ -4,21 +4,25 @@
 
 _fetch_latest_hangar_file() {
     endpoint="$1"
-    project="$2"
-    version="$3"
-    platform="$4"
+    project="$2"   # e.g. henkelmax/SimpleVoiceChat
+    version="$3"   # "latest" or explicit version
+    platform="$4"  # e.g. Paper, Velocity, Waterfall
+    channel="Release" # or Beta/Alpha if you prefer
 
-    # Call Hangar API to get version download
-    response="$(curl -s -H 'accept: application/json' "$endpoint/api/v1/versions/$version/$platform/download")"
+    if [ "$version" = "latest" ]; then
+        # Get latest version metadata
+        response="$(curl -s -H 'accept: application/json' \
+            "$endpoint/api/v1/projects/$project/latest?channel=$channel")"
 
-    # Extract the download URL from JSON
-    download_url="$(echo "$response" | jq -r '.downloads[0].url')"
-
-    if [ -z "$download_url" ] || [ "$download_url" = "null" ]; then
-        echo "Failed to fetch Hangar download URL"
-        return 1
+        version="$(echo "$response" | jq -r '.name')"
+        if [ -z "$version" ] || [ "$version" = "null" ]; then
+            echo "Failed to fetch latest version for $project"
+            return 1
+        fi
     fi
 
+    # Build direct download URL
+    download_url="$endpoint/api/v1/projects/$project/versions/$version/$platform/download"
     DEFAULT_DOWNLOAD_URL="$download_url"
 }
 
