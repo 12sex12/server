@@ -42,11 +42,11 @@
         "url": "https://ci.viaversion.com/job/ViaRewind/lastSuccessfulBuild/artifact/*zip*/archive.zip",
         "extract": "archive/build/libs/ViaRewind-*.jar"
       },
-      "plugins/VoiceChat.jar": {
-        "type": "modrinth",
-        "project": "simple-voice-chat",
-        "version": "latest"
-      }
+    "plugins/VoiceChat.jar": {
+      "type": "github",
+      "repo": "henkelmax/simple-voice-chat",
+      "asset": "voicechat-bukkit-*.jar"
+    }
     },
     "internal": {
       "mods/PaperMixins.jar": {
