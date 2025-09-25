@@ -43,12 +43,9 @@
         "extract": "archive/build/libs/ViaRewind-*.jar"
       },
       "plugins/VoiceChat.jar": {
-        "type": "hangar",
-        "endpoint": "https://hangar.papermc.io",
-        "project": "henkelmax/SimpleVoiceChat",
-        "version": "latest",
-        "platform": "Paper"
-    }
+        "type": "url",
+        "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/VloDgjv1/voicechat-bukkit-2.6.4.jar"
+      }
     },
     "internal": {
       "mods/PaperMixins.jar": {
