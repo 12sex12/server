@@ -46,8 +46,9 @@
         "type": "fill",
         "endpoint": "https://hangar.papermc.io",
         "project": "henkelmax/SimpleVoiceChat",
-        "version": "latest"
-      }
+        "version": "latest",
+        "platform": "Paper"
+    }
     },
     "internal": {
       "mods/PaperMixins.jar": {
