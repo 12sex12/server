@@ -43,7 +43,7 @@
         "extract": "archive/build/libs/ViaRewind-*.jar"
       },
       "plugins/VoiceChat.jar": {
-        "type": "fill",
+        "type": "hangar",
         "endpoint": "https://hangar.papermc.io",
         "project": "henkelmax/SimpleVoiceChat",
         "version": "latest",
