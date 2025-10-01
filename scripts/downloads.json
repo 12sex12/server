@@ -34,7 +34,7 @@
             },
             "plugins/ViaBackwards.jar": {
                 "type": "file",
-                "url": "https://object-storage.svc.atl1.cox.minehut.com/v1/presigner/plugin/ViaVersion.jar"
+                "url": "https://object-storage.svc.atl1.cox.minehut.com/v1/presigner/plugin/ViaBackwards.jar"
             },
             "plugins/ViaRewind.jar": {
                 "type": "zip",
