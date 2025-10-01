@@ -1,89 +1,85 @@
 {
-  "server.jar": {
-    "type": "github",
-    "repo": "vectrix-space/ignite",
-    "asset": "ignite[.]jar"
-  },
-  "paper.jar": {
-    "type": "fill",
-    "endpoint": "https://fill.papermc.io",
-    "project": "paper",
-    "version": "1.21.9"
-  },
-  "plugins": {
-    "external": {
-      "plugins/Essentials.jar": {
-        "type": "zip",
-        "url": "https://ci.ender.zone/job/EssentialsX/lastSuccessfulBuild/artifact/*zip*/archive.zip",
-        "extract": "archive/jars/EssentialsX-*.jar"
-      },
-      "plugins/FastAsyncWorldEdit.jar": {
-        "type": "zip",
-        "url": "https://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/*zip*/archive.zip",
-        "extract": "archive/artifacts/FastAsyncWorldEdit-Paper-*.jar"
-      },
-      "plugins/Geyser.jar": {
-        "type": "zip",
-        "url": "https://nightly.link/GeyserMC/Geyser/workflows/build/master/Geyser-Spigot.zip",
-        "extract": "Geyser-Spigot.jar"
-      },
-      "plugins/ViaVersion.jar": {
-        "type": "zip",
-        "url": "https://ci.viaversion.com/job/ViaVersion/lastSuccessfulBuild/artifact/*zip*/archive.zip",
-        "extract": "archive/build/libs/ViaVersion-*.jar"
-      },
-      "plugins/ViaBackwards.jar": {
-        "type": "zip",
-        "url": "https://ci.viaversion.com/job/ViaBackwards/lastSuccessfulBuild/artifact/*zip*/archive.zip",
-        "extract": "archive/build/libs/ViaBackwards-*.jar"
-      },
-      "plugins/ViaRewind.jar": {
-        "type": "zip",
-        "url": "https://ci.viaversion.com/job/ViaRewind/lastSuccessfulBuild/artifact/*zip*/archive.zip",
-        "extract": "archive/build/libs/ViaRewind-*.jar"
-      },
-      "plugins/VoiceChat.jar": {
-        "type": "url",
-        "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/VloDgjv1/voicechat-bukkit-2.6.4.jar"
-      }
+    "server.jar": {
+        "type": "github",
+        "repo": "vectrix-space/ignite",
+        "asset": "ignite[.]jar"
     },
-    "internal": {
-      "mods/PaperMixins.jar": {
-        "type": "zip",
-        "skip_404": true,
-        "url": "https://nightly.link/kaboomserver/papermixins/workflows/build/1.21.7/Artifacts.zip",
-        "extract": "paper-mixins-master.jar"
-      },
-      "plugins/CommandSpy.jar": {
-        "type": "zip",
-        "skip_404": true,
-        "url": "https://nightly.link/kaboomserver/commandspy/workflows/main/master/CommandSpy.zip",
-        "extract": "CommandSpy.jar"
-      },
-      "plugins/Extras.jar": {
-        "type": "zip",
-        "skip_404": true,
-        "url": "https://nightly.link/kaboomserver/extras/workflows/main/master/Extras.zip",
-        "extract": "Extras.jar"
-      },
-      "plugins/iControlU.jar": {
-        "type": "zip",
-        "skip_404": true,
-        "url": "https://nightly.link/kaboomserver/icontrolu/workflows/main/master/iControlU.zip",
-        "extract": "iControlU.jar"
-      },
-      "plugins/ParticleTrails.jar": {
-        "type": "zip",
-        "skip_404": true,
-        "url": "https://nightly.link/kaboomserver/particletrails/workflows/main/master/ParticleTrails.zip",
-        "extract": "ParticleTrails.jar"
-      },
-      "plugins/Weapons.jar": {
-        "type": "zip",
-        "skip_404": true,
-        "url": "https://nightly.link/kaboomserver/weapons/workflows/main/master/Weapons.zip",
-        "extract": "Weapons.jar"
-      }
+    "paper.jar": {
+        "type": "fill",
+        "endpoint": "https://fill.papermc.io",
+        "project": "paper",
+        "version": "1.21.9"
+    },
+    "plugins": {
+        "external": {
+            "plugins/Essentials.jar": {
+                "type": "zip",
+                "url": "https://ci.ender.zone/job/EssentialsX/lastSuccessfulBuild/artifact/*zip*/archive.zip",
+                "extract": "archive/jars/EssentialsX-*.jar"
+            },
+            "plugins/FastAsyncWorldEdit.jar": {
+                "type": "zip",
+                "url": "https://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/*zip*/archive.zip",
+                "extract": "archive/artifacts/FastAsyncWorldEdit-Paper-*.jar"
+            },
+            "plugins/Geyser.jar": {
+                "type": "zip",
+                "url": "https://nightly.link/GeyserMC/Geyser/workflows/build/feature%2F1.21.9/Geyser-Spigot.zip",
+                "extract": "Geyser-Spigot.jar"
+            },
+            "plugins/ViaVersion.jar": {
+                "type": "zip",
+                "url": "https://ci.viaversion.com/job/ViaVersion/lastSuccessfulBuild/artifact/*zip*/archive.zip",
+                "extract": "archive/build/libs/ViaVersion-*.jar"
+            },
+            "plugins/ViaBackwards.jar": {
+                "type": "zip",
+                "url": "https://ci.viaversion.com/job/ViaBackwards/lastSuccessfulBuild/artifact/*zip*/archive.zip",
+                "extract": "archive/build/libs/ViaBackwards-*.jar"
+            },
+            "plugins/ViaRewind.jar": {
+                "type": "zip",
+                "url": "https://ci.viaversion.com/job/ViaRewind/lastSuccessfulBuild/artifact/*zip*/archive.zip",
+                "extract": "archive/build/libs/ViaRewind-*.jar"
+            }
+        },
+        "internal": {
+            "mods/PaperMixins.jar": {
+                "type": "zip",
+                "skip_404": true,
+                "url": "https://nightly.link/kaboomserver/papermixins/workflows/build/1.21.9/Artifacts.zip",
+                "extract": "paper-mixins-master.jar"
+            },
+            "plugins/CommandSpy.jar": {
+                "type": "zip",
+                "skip_404": true,
+                "url": "https://nightly.link/kaboomserver/commandspy/workflows/main/master/CommandSpy.zip",
+                "extract": "CommandSpy.jar"
+            },
+            "plugins/Extras.jar": {
+                "type": "zip",
+                "skip_404": true,
+                "url": "https://nightly.link/kaboomserver/extras/actions/runs/18145392580/Extras.zip",
+                "extract": "Extras.jar"
+            },
+            "plugins/iControlU.jar": {
+                "type": "zip",
+                "skip_404": true,
+                "url": "https://nightly.link/kaboomserver/icontrolu/workflows/main/master/iControlU.zip",
+                "extract": "iControlU.jar"
+            },
+            "plugins/ParticleTrails.jar": {
+                "type": "zip",
+                "skip_404": true,
+                "url": "https://nightly.link/kaboomserver/particletrails/workflows/main/master/ParticleTrails.zip",
+                "extract": "ParticleTrails.jar"
+            },
+            "plugins/Weapons.jar": {
+                "type": "zip",
+                "skip_404": true,
+                "url": "https://nightly.link/kaboomserver/weapons/workflows/main/master/Weapons.zip",
+                "extract": "Weapons.jar"
+            }
+        }
     }
-  }
 }
