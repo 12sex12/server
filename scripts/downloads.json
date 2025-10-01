@@ -33,7 +33,7 @@
                 "extract": "archive/build/libs/ViaVersion-*.jar"
             },
             "plugins/ViaBackwards.jar": {
-                "type": "file",
+                "type": "url",
                 "url": "https://object-storage.svc.atl1.cox.minehut.com/v1/presigner/plugin/ViaBackwards.jar"
             },
             "plugins/ViaRewind.jar": {
