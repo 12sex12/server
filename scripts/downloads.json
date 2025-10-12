@@ -8,7 +8,7 @@
         "type": "fill",
         "endpoint": "https://fill.papermc.io",
         "project": "paper",
-        "version": "1.21.10"
+        "version": "1.21.9"
     },
     "plugins": {
         "external": {
@@ -32,7 +32,7 @@
                 "url": "https://ci.viaversion.com/job/ViaVersion/lastSuccessfulBuild/artifact/*zip*/archive.zip",
                 "extract": "archive/build/libs/ViaVersion-*.jar"
             },
-            "plugins/Voicechat.jar": {
+            "plugins/VoiceChat.jar": {
                 "type": "url",
                 "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/kR5X735T/voicechat-bukkit-2.6.5.jar"
             },
