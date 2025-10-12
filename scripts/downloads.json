@@ -32,6 +32,10 @@
                 "url": "https://ci.viaversion.com/job/ViaVersion/lastSuccessfulBuild/artifact/*zip*/archive.zip",
                 "extract": "archive/build/libs/ViaVersion-*.jar"
             },
+            "plugins/Voicechat.jar": {
+                "type": "url",
+                "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/kR5X735T/voicechat-bukkit-2.6.5.jar"
+            },
             "plugins/ViaBackwards.jar": {
                 "type": "url",
                 "url": "https://object-storage.svc.atl1.cox.minehut.com/v1/presigner/plugin/ViaBackwards.jar"
