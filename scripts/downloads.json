@@ -8,7 +8,7 @@
         "type": "fill",
         "endpoint": "https://fill.papermc.io",
         "project": "paper",
-        "version": "1.21.9"
+        "version": "1.21.10"
     },
     "plugins": {
         "external": {
@@ -62,7 +62,7 @@
             "plugins/Extras.jar": {
                 "type": "zip",
                 "skip_404": true,
-                "url": "https://nightly.link/kaboomserver/extras/actions/runs/18145392580/Extras.zip",
+                "url": "https://nightly.link/kaboomserver/extras/actions/runs/18343363567/Extras.zip",
                 "extract": "Extras.jar"
             },
             "plugins/iControlU.jar": {
