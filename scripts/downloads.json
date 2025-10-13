@@ -50,13 +50,13 @@
             "mods/PaperMixins.jar": {
                 "type": "zip",
                 "skip_404": true,
-                "url": "https://nightly.link/kaboomserver/papermixins/workflows/build/1.21.9/Artifacts.zip",
+                "url": "https://nightly.link/kaboomserver/papermixins/actions/runs/18332184688/Artifacts.zip",
                 "extract": "paper-mixins-master.jar"
             },
             "plugins/CommandSpy.jar": {
                 "type": "zip",
                 "skip_404": true,
-                "url": "https://nightly.link/kaboomserver/commandspy/workflows/main/master/CommandSpy.zip",
+                "url": "https://nightly.link/kaboomserver/commandspy/actions/runs/17888339623/CommandSpy.zip",
                 "extract": "CommandSpy.jar"
             },
             "plugins/Extras.jar": {
