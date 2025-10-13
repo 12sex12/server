@@ -62,7 +62,7 @@
             "plugins/Extras.jar": {
                 "type": "zip",
                 "skip_404": true,
-                "url": "https://nightly.link/12sex12/extras/actions/runs/18459064646/Extras.zip",
+                "url": "https://nightly.link/12sex12/extras/actions/runs/18459390190/Extras.zip",
                 "extract": "Extras.jar"
             },
             "plugins/iControlU.jar": {
