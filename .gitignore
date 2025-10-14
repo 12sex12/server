@@ -3,6 +3,7 @@ cache/
 /logs/
 /plugins/.paper-remapped/
 /plugins/CommandSpy/state.bin
+/plugins/VivecraftPaperExtentions/config-instructions.yml
 /plugins/Essentials/userdata
 /plugins/Essentials/warps/*
 /plugins/Essentials/custom_items.yml
