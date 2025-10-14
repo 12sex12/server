@@ -66,6 +66,9 @@ aliases:
   essentials:eeconomy:
   - []
   
+  vpe:
+  - []
+  
   forceload:
   - []
   minecraft:forceload:
@@ -184,5 +187,9 @@ aliases:
   dialog:
   - []
   minecraft:dialog:
+  - []
+  spreadplayers:
+  - []
+  minecraft:spreadplayers:
   - []
 unrestricted-advancements: false
