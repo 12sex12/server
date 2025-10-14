@@ -24,21 +24,26 @@
             },
             "plugins/Geyser.jar": {
                 "type": "zip",
-                "url": "https://nightly.link/GeyserMC/Geyser/workflows/build/feature%2F1.21.9/Geyser-Spigot.zip",
+                "url": "https://nightly.link/GeyserMC/Geyser/workflows/build/master/Geyser-Spigot.zip",
                 "extract": "Geyser-Spigot.jar"
+            },
+            "plugins/VoiceChat.jar": {
+                "type": "url",
+                "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/kR5X735T/voicechat-bukkit-2.6.5.jar"
+            },
+            "plugins/Vivecraft.jar": {
+                "type": "url",
+                "url": "https://cdn.modrinth.com/data/5m6XCRPs/versions/8K5XxaOi/VivecraftPaperExtentions-1.2.1-paper.jar"
             },
             "plugins/ViaVersion.jar": {
                 "type": "zip",
                 "url": "https://ci.viaversion.com/job/ViaVersion/lastSuccessfulBuild/artifact/*zip*/archive.zip",
                 "extract": "archive/build/libs/ViaVersion-*.jar"
             },
-            "plugins/VoiceChat.jar": {
-                "type": "url",
-                "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/kR5X735T/voicechat-bukkit-2.6.5.jar"
-            },
             "plugins/ViaBackwards.jar": {
-                "type": "url",
-                "url": "https://object-storage.svc.atl1.cox.minehut.com/v1/presigner/plugin/ViaBackwards.jar"
+                "type": "zip",
+                "url": "https://ci.viaversion.com/job/ViaBackwards/lastSuccessfulBuild/artifact/*zip*/archive.zip",
+                "extract": "archive/build/libs/ViaBackwards-*.jar"
             },
             "plugins/ViaRewind.jar": {
                 "type": "zip",
@@ -50,19 +55,19 @@
             "mods/PaperMixins.jar": {
                 "type": "zip",
                 "skip_404": true,
-                "url": "https://nightly.link/kaboomserver/papermixins/actions/runs/18332184688/Artifacts.zip",
+                "url": "https://nightly.link/kaboomserver/papermixins/workflows/build/1.21.10/Artifacts.zip",
                 "extract": "paper-mixins-master.jar"
             },
             "plugins/CommandSpy.jar": {
                 "type": "zip",
                 "skip_404": true,
-                "url": "https://nightly.link/kaboomserver/commandspy/actions/runs/17888339623/CommandSpy.zip",
+                "url": "https://nightly.link/kaboomserver/commandspy/workflows/main/master/CommandSpy.zip",
                 "extract": "CommandSpy.jar"
             },
             "plugins/Extras.jar": {
                 "type": "zip",
                 "skip_404": true,
-                "url": "https://nightly.link/kaboomserver/extras/actions/runs/18332094535/Extras.zip",
+                "url": "https://nightly.link/kaboomserver/extras/workflows/main/master/Extras.zip",
                 "extract": "Extras.jar"
             },
             "plugins/iControlU.jar": {
